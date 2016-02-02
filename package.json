@@ -1,0 +1,29 @@
+{
+  "name": "digitalocean-dynamicdns-daemon",
+  "version": "1.0.0",
+  "description": "Daemon that updates A-record of domain's DNS hosted on DigitalOcean",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/digitalhitler/digitalocean-dynamicdns-daemon.git"
+  },
+  "author": "Sergey Petrenko <spetrenko@me.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/digitalhitler/digitalocean-dynamicdns-daemon/issues"
+  },
+  "homepage": "https://github.com/digitalhitler/digitalocean-dynamicdns-daemon#readme",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "digitalocean": "^0.2.4",
+    "external-ip": "^0.2.4",
+    "fs-jetpack": "^0.7.1",
+    "ini": "^1.3.4",
+    "intel": "^1.1.0",
+    "nautical": "^1.0.0",
+    "sync-request": "^3.0.0"
+  }
+}
