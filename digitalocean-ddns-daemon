@@ -131,7 +131,8 @@ var app = {
 
 process.title = 'digitalocean-ddns-daemon';
 
-var daemonConfigFile = jetpack.read('config.ini');
+var currDir = jetpack.cwd(__dirname);
+var daemonConfigFile = currDir.read('config.ini');
 if (daemonConfigFile !== null) {
   var daemonConfig = ini.parse(daemonConfigFile);
   
